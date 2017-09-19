@@ -1,0 +1,29 @@
+{
+  "name": "authorization",
+  "version": "1.0.0",
+  "description": "Authorization service",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=* node .",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Gerhut/nginx-request-authorization.git"
+  },
+  "author": "George Chung <Gerhut@GMail.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Gerhut/nginx-request-authorization/issues"
+  },
+  "homepage": "https://github.com/Gerhut/nginx-request-authorization#readme",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-logger": "^3.0.1",
+    "koa-send": "^4.1.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
